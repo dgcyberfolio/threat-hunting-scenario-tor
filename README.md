@@ -29,7 +29,8 @@ Searched the DeviceFileEvents table for ANY file that had the string “tor” i
 
 **Query used to locate events “2025-02-21T18:58:20.2816109Z”:**
 
-[image](https://github.com/user-attachments/assets/4f4f849e-2927-4745-b31d-9c703b271670)
+![image](https://github.com/user-attachments/assets/c84430de-3141-4d19-9356-0da1a428b23d)
+
 
 
 ---
