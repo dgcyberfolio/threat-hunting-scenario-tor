@@ -29,17 +29,8 @@ Searched the DeviceFileEvents table for ANY file that had the string “tor” i
 
 **Query used to locate events “2025-02-21T18:58:20.2816109Z”:**
 
-```kql
-DeviceFileEvents  
-| where DeviceName == "threat-hunt-lab"  
-| where InitiatingProcessAccountName == "employee"  
-| where FileName contains "tor"  
-| where Timestamp >= datetime(2024-11-08T22:14:48.6065231Z)  
-| order by Timestamp desc  
-| project Timestamp, DeviceName, ActionType, FileName, FolderPath, SHA256, Account = InitiatingProcessAccountName
-```
-<img width="1212" alt="image" src="https://github.com/user-attachments/assets/71402e84-8767-44f8-908c-1805be31122d">
-![image](https://github.com/user-attachments/assets/ece75f1d-3d12-406f-8ae8-88f25edbf32d)
+[image](https://github.com/user-attachments/assets/4f4f849e-2927-4745-b31d-9c703b271670)
+
 
 ---
 
