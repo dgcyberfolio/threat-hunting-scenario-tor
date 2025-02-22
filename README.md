@@ -52,15 +52,8 @@ Searched the DeviceProcessEvents table for any indication that the user “labus
 
 
 **Query used to locate events:**
+![image](https://github.com/user-attachments/assets/57db0688-6291-49d4-be99-e2a5f18d6175)
 
-```kql
-DeviceProcessEvents  
-| where DeviceName == "threat-hunt-lab"  
-| where FileName has_any ("tor.exe", "firefox.exe", "tor-browser.exe")  
-| project Timestamp, DeviceName, AccountName, ActionType, FileName, FolderPath, SHA256, ProcessCommandLine  
-| order by Timestamp desc
-```
-<img width="1212" alt="image" src="https://github.com/user-attachments/assets/b13707ae-8c2d-4081-a381-2b521d3a0d8f">
 
 ---
 
