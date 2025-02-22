@@ -41,14 +41,8 @@ Searched the DeviceProcessEvents table for any ProcessCommandLine that contained
 
 **Query used to locate event:**
 
-```kql
+![image](https://github.com/user-attachments/assets/ad42ddf7-81d4-4a9f-b662-3bbda96aa58f)
 
-DeviceProcessEvents  
-| where DeviceName == "threat-hunt-lab"  
-| where ProcessCommandLine contains "tor-browser-windows-x86_64-portable-14.0.1.exe"  
-| project Timestamp, DeviceName, AccountName, ActionType, FileName, FolderPath, SHA256, ProcessCommandLine
-```
-<img width="1212" alt="image" src="https://github.com/user-attachments/assets/b07ac4b4-9cb3-4834-8fac-9f5f29709d78">
 
 ---
 
