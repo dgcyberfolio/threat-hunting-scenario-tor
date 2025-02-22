@@ -52,6 +52,7 @@ Searched the DeviceProcessEvents table for any indication that the user “labus
 
 
 **Query used to locate events:**
+
 ![image](https://github.com/user-attachments/assets/57db0688-6291-49d4-be99-e2a5f18d6175)
 
 
@@ -59,7 +60,7 @@ Searched the DeviceProcessEvents table for any indication that the user “labus
 
 ### 4. Searched the `DeviceNetworkEvents` Table for TOR Network Connections
 
-Searched for any indication the TOR browser was used to establish a connection using any of the known TOR ports. At `2024-11-08T22:18:01.1246358Z`, an employee on the "threat-hunt-lab" device successfully established a connection to the remote IP address `176.198.159.33` on port `9001`. The connection was initiated by the process `tor.exe`, located in the folder `c:\users\employee\desktop\tor browser\browser\torbrowser\tor\tor.exe`. There were a couple of other connections to sites over port `443`.
+Searched the DeviceNetworkEvents table for any indication the tor browser was used to establish a connection using any of the known tor ports. At 1:09:29 PM on February 21, 2025, an employee on the “sentinel-practi” device successfully established a connection to the remote IP address 127.0.0.1 on port 9150. The connection was initiated by the process firefox.exe located in the folder c:\users\labuserz\desktop\tor browser\browser\firefox.exe. In addition there were a few connections to sites over port 443.
 
 **Query used to locate events:**
 
